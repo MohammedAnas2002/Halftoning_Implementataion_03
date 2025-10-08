@@ -103,7 +103,9 @@ To evaluate how different halftone generation parameters affect image quality us
 - Error diffusion → slightly higher PSNR for Atkinson kernel  
 - Threshold-based methods → strong variation with intensity  
 
-*📊 Include a bar chart here comparing PSNR values for all methods.*
+<img width="694" height="392" alt="image" src="https://github.com/user-attachments/assets/0ddb0756-4fe6-4179-9ba8-9969e55cf18a" />  
+<img width="679" height="375" alt="image" src="https://github.com/user-attachments/assets/ce6bfe91-693c-4b06-bf5a-d8725a2d0c27" />  
+<img width="679" height="375" alt="image" src="https://github.com/user-attachments/assets/ce6bfe91-693c-4b06-bf5a-d8725a2d0c27" />  
 
 ---
 
@@ -111,14 +113,17 @@ To evaluate how different halftone generation parameters affect image quality us
 
 - Atkinson kernel → superior structural retention  
 - Threshold 64 and ordered dithering (8×8) → smoother perceptual structure  
-
-*📊 Include a bar chart here for SSIM comparison.*
-
+<img width="694" height="392" alt="image" src="https://github.com/user-attachments/assets/52d5a776-cde8-4fff-bbf8-87576f12a58c" />
+<img width="679" height="375" alt="image" src="https://github.com/user-attachments/assets/381e4bed-2c55-4e63-bde6-2e07ea0f1cf4" />
+<img width="662" height="372" alt="image" src="https://github.com/user-attachments/assets/cb83de6e-b903-43b1-887a-108e4e66dda2" />
 ---
 
 ## 🔹 Visual Results
+<img width="591" height="291" alt="image" src="https://github.com/user-attachments/assets/b2c3fb74-2a8f-4c38-a288-64f3429148ad" /> <img width="590" height="327" alt="image" src="https://github.com/user-attachments/assets/c9716c94-2860-49f5-96ab-b785f3a61d3f" />  <img width="591" height="319" alt="image" src="https://github.com/user-attachments/assets/2082246d-3a15-4f06-9a82-db43f3134e25" />
 
-**Sample outputs:**  
+
+
+ 
 
 - **Global Threshold:** 64, 128, 192  
 - **Ordered Dithering:** 2×2, 4×4, 8×8, 16×16  
