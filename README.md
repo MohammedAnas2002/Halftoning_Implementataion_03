@@ -124,9 +124,9 @@ To evaluate how different halftone generation parameters affect image quality us
 The figures shows the global threshold experiments
 
 Observation: 
-Lower threshold (64) yields higher SSIM (0.446) → better perceptual detail in darker regions.
-128 offers balanced PSNR and moderate structural similarity. 
-192 washes out image details due to overly high thresholding. 
+- Lower threshold (64) yields higher SSIM (0.446) → better perceptual detail in darker regions.
+-  128 offers balanced PSNR and moderate structural similarity.
+-  192 washes out image details due to overly high thresholding.
 Best Balance: Threshold = 128
 
 
