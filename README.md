@@ -120,6 +120,9 @@ To evaluate how different halftone generation parameters affect image quality us
 
 ## 🔹 Visual Results
 <img width="591" height="291" alt="image" src="https://github.com/user-attachments/assets/b2c3fb74-2a8f-4c38-a288-64f3429148ad" /> <img width="590" height="327" alt="image" src="https://github.com/user-attachments/assets/c9716c94-2860-49f5-96ab-b785f3a61d3f" />  <img width="591" height="319" alt="image" src="https://github.com/user-attachments/assets/2082246d-3a15-4f06-9a82-db43f3134e25" />
+The figures shows the global threshold experiments
+<img width="504" height="220" alt="image" src="https://github.com/user-attachments/assets/c26b8d7a-79f2-45ce-8df0-e0dc260d0b25" />
+
 
 
 
