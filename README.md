@@ -129,16 +129,30 @@ Observation:
 -  192 washes out image details due to overly high thresholding.
 Best Balance: Threshold = 128
 
+<img width="489" height="288" alt="image" src="https://github.com/user-attachments/assets/bef11969-8b7d-4d75-8421-5f63c141d45e" />
+<img width="488" height="289" alt="image" src="https://github.com/user-attachments/assets/234154f7-b6b5-443a-be52-a9f87eb8b6ef" />
+<img width="488" height="289" alt="image" src="https://github.com/user-attachments/assets/183f7c4d-b2bb-4a3b-902a-ab7d16d526e4" />
+<img width="489" height="289" alt="image" src="https://github.com/user-attachments/assets/84940365-cb58-449d-b79c-d1ef2710f487" />
+The above figures show the ordered dithering experiments
 
-- **Global Threshold:** 64, 128, 192  
-- **Ordered Dithering:** 2×2, 4×4, 8×8, 16×16  
-- **Error Diffusion:** FS, Jarvis, Stucki, Sierra, Atkinson  
+Observation: 
+- Increasing matrix size smooths the tone transitions.
+- Visual grain decreases with larger matrices.
+- Beyond 8×8, improvements plateau with minimal gain in SSIM.
+Optimal Matrix Size: 4×4 or 8×8
 
-**Observations:**  
-- Ordered and error diffusion methods → more natural tonal transitions  
-- Larger matrices and advanced kernels → reduced visible artifacts  
+<img width="520" height="257" alt="image" src="https://github.com/user-attachments/assets/572a1ba7-561c-406f-b0e8-b21837ec1542" />
+<img width="520" height="257" alt="image" src="https://github.com/user-attachments/assets/98582cd3-832a-4dce-9daf-5caa00a333b6" />
+<img width="521" height="267" alt="image" src="https://github.com/user-attachments/assets/80a63566-257e-4955-9a31-444b798771b5" />
+<img width="521" height="265" alt="image" src="https://github.com/user-attachments/assets/633a7cbf-141c-427d-bba7-181d2ec00997" />
+<img width="520" height="256" alt="image" src="https://github.com/user-attachments/assets/814542f1-8bec-476d-b754-1af78610e8fc" />
+The above figure shows the error diffusion experiments
 
-*🖼 Add a side-by-side image grid for visual comparison.*
+Observation: 
+- Atkinson achieves the highest SSIM (0.120) → smoother tonal transitions and better edge preservation.
+- Jarvis and Stucki also perform strongly with fine-grained diffusion.
+- Floyd–Steinberg remains computationally efficient with acceptable quality.
+Best Performer: Atkinson Kernel
 
 ---
 
