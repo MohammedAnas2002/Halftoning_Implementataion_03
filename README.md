@@ -41,6 +41,9 @@ To evaluate how different halftone generation parameters affect image quality us
 | 128       | 8.85 | 0.318 |
 | 192       | 6.65 | 0.059 |
 
+<img width="547" height="272" alt="image" src="https://github.com/user-attachments/assets/5a34b1f2-cb9c-45e3-a0b0-c97fe5e645a2" />
+
+
 **Observations:**  
 - Lower threshold (64) → higher SSIM, better perceptual detail in darker regions  
 - Threshold 128 → balanced PSNR and moderate structural similarity  
@@ -58,6 +61,10 @@ To evaluate how different halftone generation parameters affect image quality us
 | 4×4        | 6.68 | 0.036 |
 | 8×8        | 6.68 | 0.036 |
 | 16×16      | 6.69 | 0.036 |
+
+<img width="517" height="268" alt="image" src="https://github.com/user-attachments/assets/68bc9caf-7e54-49aa-b2c7-f414a42e73f3" />
+
+
 
 **Observations:**  
 - Increasing matrix size smooths tone transitions  
@@ -77,6 +84,9 @@ To evaluate how different halftone generation parameters affect image quality us
 | Stucki           | 6.74 | 0.047 |
 | Sierra           | 6.75 | 0.049 |
 | Atkinson         | 7.71 | 0.120 |
+
+<img width="483" height="297" alt="image" src="https://github.com/user-attachments/assets/a1330324-595a-42d5-93d1-d4ab04c729d4" />
+
 
 **Observations:**  
 - Atkinson → highest SSIM, smoother tonal transitions, better edge preservation  
