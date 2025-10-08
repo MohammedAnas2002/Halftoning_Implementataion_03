@@ -133,6 +133,7 @@ Best Balance: Threshold = 128
 <img width="488" height="289" alt="image" src="https://github.com/user-attachments/assets/234154f7-b6b5-443a-be52-a9f87eb8b6ef" />
 <img width="488" height="289" alt="image" src="https://github.com/user-attachments/assets/183f7c4d-b2bb-4a3b-902a-ab7d16d526e4" />
 <img width="489" height="289" alt="image" src="https://github.com/user-attachments/assets/84940365-cb58-449d-b79c-d1ef2710f487" />
+
 The above figures show the ordered dithering experiments
 
 Observation: 
@@ -146,6 +147,7 @@ Optimal Matrix Size: 4×4 or 8×8
 <img width="521" height="267" alt="image" src="https://github.com/user-attachments/assets/80a63566-257e-4955-9a31-444b798771b5" />
 <img width="521" height="265" alt="image" src="https://github.com/user-attachments/assets/633a7cbf-141c-427d-bba7-181d2ec00997" />
 <img width="520" height="256" alt="image" src="https://github.com/user-attachments/assets/814542f1-8bec-476d-b754-1af78610e8fc" />
+
 The above figure shows the error diffusion experiments
 
 Observation: 
